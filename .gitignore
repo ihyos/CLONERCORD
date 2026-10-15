@@ -5,3 +5,7 @@ node_modules/
 dist/
 build/
 *.js.map
+
+# Excluir pastas do CLI e do Site do repositório principal da skill
+cli/
+site/

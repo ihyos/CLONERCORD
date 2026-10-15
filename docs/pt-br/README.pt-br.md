@@ -22,7 +22,15 @@
 
 ## Instalacao via Comando
 
-Instala exclusivamente o arquivo `skill.md` e a pasta `emojis discord` no seu projeto:
+### NPX (Recomendado - Instantâneo)
+```bash
+npx clonercord-discord-skill
+```
+
+### NPX + Download Completo dos Emojis (Pasta Local)
+```bash
+npx clonercord-discord-skill --download-emojis
+```
 
 ### PowerShell (Windows)
 

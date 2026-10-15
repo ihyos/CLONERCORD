@@ -23,11 +23,17 @@
 
 Injeta o treinamento completo para o Agente de IA, a `skill.md` e o catálogo indexado dos 375+ emojis com URLs diretas no projeto:
 
-### NPX (Recomendado - Instantâneo)
+### NPX (Recomendado - Instantâneo & Sem Download Pesado)
+Injeta o treinamento da IA, `skill.md` e catálogo com URLs diretas dos 379 emojis na nuvem:
 ```bash
 npx clonercord-discord-skill
 ```
-> *(Para baixar também a pasta física com os 379 PNGs/GIFs localmente: `npx clonercord-discord-skill --download-emojis`)*
+
+### NPX + Download Completo dos Emojis (Pasta Física Local)
+Injeta o treinamento da IA, `skill.md` e baixa localmente todos os 379 arquivos PNG/GIF da pasta `emojis discord`:
+```bash
+npx clonercord-discord-skill --download-emojis
+```
 
 ### PowerShell (Windows)
 ```powershell

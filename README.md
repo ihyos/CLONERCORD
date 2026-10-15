@@ -21,7 +21,13 @@
 
 ## 🚀 Quick Install | Instalação Rápida
 
-Instala apenas a `skill.md` e a biblioteca de emojis no seu projeto atual:
+Injeta o treinamento completo para o Agente de IA, a `skill.md` e o catálogo indexado dos 375+ emojis com URLs diretas no projeto:
+
+### NPX (Recomendado - Instantâneo)
+```bash
+npx clonercord-discord-skill
+```
+> *(Para baixar também a pasta física com os 379 PNGs/GIFs localmente: `npx clonercord-discord-skill --download-emojis`)*
 
 ### PowerShell (Windows)
 ```powershell

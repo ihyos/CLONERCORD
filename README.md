@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0b5061df29d55a92d945_full_logo_blurple_RGB.svg" alt="Discord" width="240" />
+<img src="./logo.png" alt="ClonerCord Logo" height="52" />
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0b5061df29d55a92d945_full_logo_blurple_RGB.svg" alt="Discord" height="42" />
 
 <br />
 

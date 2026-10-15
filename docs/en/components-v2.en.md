@@ -187,14 +187,10 @@ await interaction.reply({
 For slow operations, defer the response before processing:
 
 ```typescript
-// Slash command
 await interaction.deferReply();
-// ... slow operations ...
 await interaction.editReply({ flags: MessageFlags.IsComponentsV2, components: [...] });
 
-// Component interaction
 await interaction.deferUpdate();
-// ... slow operations ...
 await interaction.editReply({ flags: MessageFlags.IsComponentsV2, components: [...] });
 ```
 

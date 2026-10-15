@@ -41,7 +41,6 @@ if (!token) throw new Error('DISCORD_TOKEN is not defined');
 Never use hardcoded fallbacks:
 
 ```typescript
-// PROHIBITED
 const token = process.env.DISCORD_TOKEN || 'my_secret_token';
 ```
 

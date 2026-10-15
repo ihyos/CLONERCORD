@@ -41,7 +41,6 @@ if (!token) throw new Error('DISCORD_TOKEN nao definido');
 Nunca usar fallbacks hardcodados:
 
 ```typescript
-// PROIBIDO
 const token = process.env.DISCORD_TOKEN || 'meu_token_secreto';
 ```
 

@@ -13,8 +13,12 @@ When starting a new Discord bot or configuring architecture, the AI Agent MUST N
 - *Rule*: All bot-facing messages, buttons, modals, embeds, and status updates must strictly follow this choice.
 
 ### Step 3: Technology Stack & Language
-- **Programming Language**: TypeScript (Recommended), JavaScript (Node.js), Python, Go, or Rust.
-- **Library Version**: discord.js v14+ (with Discord Components V2), discord.py, or equivalent official API wrappers.
+The AI Agent MUST explicitly present the supported runtimes and languages, highlighting TypeScript as the recommended choice:
+- **TypeScript** (Recomendado)
+- **Python** (discord.py / Pycord)
+- **JavaScript** (Node.js)
+- **Bun** (discord.js com runtime ultrarrápido)
+- **Outras linguagens compatíveis** (Go / DiscordGo, Rust / Serenity, C# / Discord.Net)
 
 ### Step 4: Emoji Pipeline (Custom Emojis vs Native)
 - **Question**: Would you like to use custom Discord emojis from the official emoji pack (`emojis discord/emojis personalizados`)?
@@ -34,63 +38,40 @@ When starting a new Discord bot or configuring architecture, the AI Agent MUST N
 
 ---
 
-## 2. Strict Emoji Rules and Semantic Dictionary
+## 2. Advanced Discord Components V2 Master Rules
+
+The AI Agent MUST master and implement advanced, high-complexity Discord Components V2 patterns, while strictly avoiding ugly formatting artifacts:
+
+- **100% Components V2 Architecture**: All interfaces, modals, panel responses, and dashboards MUST use Components V2 with `flags: MessageFlags.IsComponentsV2`.
+- **PROHIBITED TEXT STYLING**:
+  - NEVER use underlined text (`__texto__`).
+  - NEVER use italic/tilted formatting (`*texto*`, `_texto_`, `***texto***`).
+  - Keep typography clean, crisp, bold when needed (`**texto**`), and readable.
+
+### Advanced Functional Implementations:
+1. **Interactive Modals with Advanced Inputs**:
+   - Dynamic Modals containing `StringSelectMenuBuilder` / Dropdowns inside modals where supported by Discord V2 protocol.
+   - Text inputs with clean validation, placeholders, and error-trapping states.
+2. **Media & File Handling inside Components V2**:
+   - `MediaGalleryBuilder` and `FileBuilder` for dynamic image uploads, attachments, invoices, and dynamic QR Code rendering.
+   - `ThumbnailBuilder` integrated cleanly with `SectionBuilder` accessories for product avatars or profile badges.
+3. **Complex Nested Layouts**:
+   - Multi-layer `ContainerBuilder` with contextual `SeparatorBuilder` (`.setDivider(true)`).
+   - Rich interactive Action Rows combining primary buttons, secondary navigation buttons, and select menus smoothly without reaching Discord component limits.
+
+---
+
+## 3. Strict Emoji Rules and Semantic Dictionary
 
 - **NEVER use standard Unicode emojis** in bot messages, titles, buttons, panels, or logs (e.g., no 📦, 💸, 📝, 🛒, ℹ️, 🚨, ⏱️, 📋, 🔘, ⌨️, 💰).
 - **ONLY use uploaded custom Discord emojis** (`<:name:id>` / `<a:name:id>`).
 - **Semantic Consistency**: Every emoji used must match its exact contextual meaning.
-  - **Payment & Finance**:
-    - Pix = `pix`
-    - Nubank = `nubank`
-    - Mercado Pago = `mercado_pago`
-    - PagBank = `pagbank`
-    - EFI Bank = `efi_bank`
-    - PicPay = `picpay`
-    - Wallet / Saldo = `wallet` / `carteira`
-    - Cart / Carrinho = `cart`
-    - Money / Dinheiro = `dollar`, `coin`, `moneybag`
-    - QR Code = `qrcode`
-    - Receipt / Comprovante = `receipt`
-    - Discount / Cupom = `coupon`, `discount`
-  - **Status & Feedback**:
-    - Success / OK = `correct`, `check`, `success`, `verified`
-    - Error / Cancel = `wrong`, `danger`, `cancel`, `forbidden`
-    - Warning / Attention = `warn`, `warning`, `alert`, `alerta01`
-    - Loading / Pending = `loading`, `refreshing`, `pending`, `time`, `clock`
-  - **Navigation & Controls**:
-    - Back / Return = `back`, `voltar`
-    - Forward / Next = `arrow`, `arrowr`, `chevron`
-    - Settings / Config = `settings`, `config`
-    - Trash / Delete = `trashcan`, `delete`, `lixeirared`
-    - Refresh / Reload = `reload`, `torefresh`
-  - **Systems & Features**:
-    - Ticket / Support = `ticket`, `help`
-    - Members / Users = `member`, `members`, `users`
-    - Channels / Announcement = `announcement`, `textc`, `voice`
-    - Security / Roles = `shield`, `lock`, `unlock`, `role`
+  - **Payment & Finance**: Pix (`pix`), Nubank (`nubank`), Mercado Pago (`mercado_pago`), PagBank (`pagbank`), EFI Bank (`efi_bank`), PicPay (`picpay`), Saldo (`wallet`/`carteira`), Carrinho (`cart`), Dinheiro (`dollar`/`coin`/`moneybag`), QR Code (`qrcode`), Comprovante (`receipt`), Cupom (`coupon`/`discount`).
+  - **Status & Feedback**: Sucesso (`correct`/`check`/`success`/`verified`), Erro (`wrong`/`danger`/`cancel`/`forbidden`), Alerta (`warn`/`warning`/`alert`/`alerta01`), Carregando (`loading`/`refreshing`/`pending`/`time`/`clock`).
+  - **Navegação & Controle**: Voltar (`back`/`voltar`), Avançar (`arrow`/`arrowr`/`chevron`), Configurações (`settings`/`config`), Excluir (`trashcan`/`delete`/`lixeirared`), Atualizar (`reload`/`torefresh`).
+  - **Sistemas**: Ticket (`ticket`/`help`), Membros (`member`/`members`/`users`), Canais (`announcement`/`textc`/`voice`), Segurança (`shield`/`lock`/`unlock`/`role`).
 - **Asset Directory**: All assets reside in `emojis discord/emojis personalizados/`.
 - If a specific emoji is missing from the pack, omit the emoji rather than placing a generic Unicode emoji.
-
----
-
-## 3. Visual Design and Discord Components V2
-
-- **Components V2 Mandatory**: All embeds, panels, menus, and dashboards MUST use Discord Components V2 with `flags: MessageFlags.IsComponentsV2`.
-- **Allowed Builders**:
-  - `ContainerBuilder` (Root container)
-  - `SectionBuilder` (Sections with accessory)
-  - `TextDisplayBuilder` (Rich formatted markdown text)
-  - `SeparatorBuilder` (Visual dividers via `.setDivider(true)`)
-  - `ThumbnailBuilder` & `MediaGalleryBuilder` (Image assets)
-  - `ActionRowBuilder`, `ButtonBuilder`, `StringSelectMenuBuilder`, `RoleSelectMenuBuilder`, `UserSelectMenuBuilder`, `ChannelSelectMenuBuilder`.
-- **Standard Visual Identity**:
-  - Clean, minimal, modern aesthetic.
-  - White accent color (`#FFFFFF`) or brand primary.
-  - Consistent component spacing and hierarchy.
-  - No decorative unicode borders or messy ascii lines.
-- **Punctuation Standard**:
-  - NEVER use em dash (`—`) or en dash (`–`).
-  - Use vertical pipe (`|`), colon (`:`), parentheses (`(...)`), or bullet hyphen (`-`).
 
 ---
 

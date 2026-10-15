@@ -23,6 +23,15 @@ Toda mensagem que usa Components V2 DEVE incluir:
 flags: MessageFlags.IsComponentsV2
 ```
 
+### Regras Estritas de Formatacao de Texto:
+- NUNCA use texto sublinhado (`__texto__`).
+- NUNCA use formatacao inclinada/italico (`*texto*`, `_texto_`).
+- Mantenha textos claros, limpos e sem efeitos visuais degradantes.
+
+### Recursos Avancados Obrigatorios:
+- **Modais Avancados**: Uso de campos dinamicos e `StringSelectMenuBuilder` dentro de modais.
+- **Upload de Imagens e Arquivos**: Suporte nativo com `MediaGalleryBuilder` e `FileBuilder` para comprovantes, anexos e QR Codes dinamicos.
+
 ---
 
 ## Hierarquia de Builders

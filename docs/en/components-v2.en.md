@@ -23,6 +23,15 @@ Every message using Components V2 MUST include:
 flags: MessageFlags.IsComponentsV2
 ```
 
+### Strict Typography Rules:
+- NEVER use underlined text (`__text__`).
+- NEVER use italic or tilted text (`*text*`, `_text_`).
+- Maintain clean, solid, professional typography.
+
+### Advanced Functional Patterns:
+- **Advanced Modals**: Integration of select menus/dropdowns inside modals where supported.
+- **Image & File Uploads**: Native handling via `MediaGalleryBuilder` and `FileBuilder` for attachments, invoices, and dynamic QR Code generation.
+
 ---
 
 ## Builder Hierarchy

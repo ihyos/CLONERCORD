@@ -1,6 +1,6 @@
 {
   "name": "clonercord-discord-skill",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI to inject CLONERCORD skill & LLM AI agent training for professional Discord bot development",
   "main": "bin/index.js",
   "bin": {

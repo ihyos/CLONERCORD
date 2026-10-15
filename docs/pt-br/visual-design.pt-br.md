@@ -7,7 +7,7 @@
 
 # Design Visual
 
-**Professional Discord Bot Skills · PT-BR**
+**CLONERCORD · PT-BR**
 
 </div>
 
@@ -142,6 +142,6 @@ Manter espacamento, hierarquia, rotulos e estrutura de componentes consistentes.
 
 <div align="center">
 
-<sub>Professional Discord Bot Skills · Design Visual PT-BR · Antigravity IDE</sub>
+<sub>CLONERCORD · Design Visual PT-BR · Antigravity IDE</sub>
 
 </div>

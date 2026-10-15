@@ -7,7 +7,7 @@
 
 # Regras da Skill
 
-**Professional Discord Bot Skills | PT-BR**
+**CLONERCORD | PT-BR**
 
 </div>
 
@@ -206,6 +206,6 @@ Nunca confirmar pagamento, entrega, saque, compra ou mutacao de banco de dados a
 
 <div align="center">
 
-<sub>Professional Discord Bot Skills | PT-BR | Antigravity IDE</sub>
+<sub>CLONERCORD | PT-BR | Antigravity IDE</sub>
 
 </div>

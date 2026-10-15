@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 set -e
 
-echo "Instalando Professional Discord Bot Skills..."
+echo "Instalando CLONERCORD Skills..."
 
 TEMP_DIR=$(mktemp -d)
-git clone --depth 1 --filter=blob:none --sparse https://github.com/ihyos/Professional-Discord-Bot-Skills.git "$TEMP_DIR" --quiet
+git clone --depth 1 --filter=blob:none --sparse https://github.com/ihyos/CLONERCORD.git "$TEMP_DIR" --quiet
 (
   cd "$TEMP_DIR"
   git sparse-checkout set skill.md "emojis discord" --quiet

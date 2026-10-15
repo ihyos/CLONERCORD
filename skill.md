@@ -1,4 +1,4 @@
-# Professional Discord Bot Skill
+# CLONERCORD - Discord Bot Development Skill
 
 ## 1. Interactive Step-by-Step Questionnaire (Mandatory Before Implementation)
 

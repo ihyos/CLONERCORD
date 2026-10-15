@@ -7,7 +7,7 @@
 
 # Components V2
 
-**Professional Discord Bot Skills · English**
+**CLONERCORD · English**
 
 </div>
 
@@ -202,6 +202,6 @@ await interaction.editReply({ flags: MessageFlags.IsComponentsV2, components: [.
 
 <div align="center">
 
-<sub>Professional Discord Bot Skills · Components V2 English · Antigravity IDE</sub>
+<sub>CLONERCORD · Components V2 English · Antigravity IDE</sub>
 
 </div>

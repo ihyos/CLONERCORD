@@ -5,7 +5,7 @@
 <br />
 <br />
 
-# Professional Discord Bot Skills
+# CLONERCORD
 
 **Antigravity AI Agent Skill | Components V2 | Arquitetura Multi-Linguagem**
 
@@ -27,20 +27,20 @@ Instala exclusivamente o arquivo `skill.md` e a pasta `emojis discord` no seu pr
 ### PowerShell (Windows)
 
 ```powershell
-irm https://raw.githubusercontent.com/ihyos/Professional-Discord-Bot-Skills/master/install.ps1 | iex
+irm https://raw.githubusercontent.com/ihyos/CLONERCORD/master/install.ps1 | iex
 ```
 
 ### Bash (Linux / macOS)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/ihyos/Professional-Discord-Bot-Skills/master/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/ihyos/CLONERCORD/master/install.sh | bash
 ```
 
 ### Git Sparse-Checkout (Nativo)
 
 ```bash
-git clone --depth 1 --filter=blob:none --sparse https://github.com/ihyos/Professional-Discord-Bot-Skills.git
-cd Professional-Discord-Bot-Skills
+git clone --depth 1 --filter=blob:none --sparse https://github.com/ihyos/CLONERCORD.git
+cd CLONERCORD
 git sparse-checkout set skill.md "emojis discord"
 ```
 

@@ -7,7 +7,7 @@
 
 # Security
 
-**Professional Discord Bot Skills · English**
+**CLONERCORD · English**
 
 </div>
 
@@ -109,6 +109,6 @@ A deletion performed by the bot or directly in Supabase is permanent from the ap
 
 <div align="center">
 
-<sub>Professional Discord Bot Skills · Security English · Antigravity IDE</sub>
+<sub>CLONERCORD · Security English · Antigravity IDE</sub>
 
 </div>

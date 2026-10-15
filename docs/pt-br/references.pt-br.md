@@ -7,7 +7,7 @@
 
 # Referencias
 
-**Professional Discord Bot Skills · PT-BR**
+**CLONERCORD · PT-BR**
 
 </div>
 
@@ -86,6 +86,6 @@
 
 <div align="center">
 
-<sub>Professional Discord Bot Skills · Referencias PT-BR · Antigravity IDE</sub>
+<sub>CLONERCORD · Referencias PT-BR · Antigravity IDE</sub>
 
 </div>

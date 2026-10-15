@@ -7,7 +7,7 @@
 
 # Skill Rules
 
-**Professional Discord Bot Skills | English**
+**CLONERCORD | English**
 
 </div>
 
@@ -206,6 +206,6 @@ Never confirm a payment, delivery, withdrawal, purchase, or database mutation un
 
 <div align="center">
 
-<sub>Professional Discord Bot Skills | English | Antigravity IDE</sub>
+<sub>CLONERCORD | English | Antigravity IDE</sub>
 
 </div>

@@ -1,8 +1,8 @@
 $ErrorActionPreference = "Stop"
 
-Write-Host "Instalando Professional Discord Bot Skills..." -ForegroundColor Cyan
+Write-Host "Instalando CLONERCORD Skills..." -ForegroundColor Cyan
 
-$repo = "https://github.com/ihyos/Professional-Discord-Bot-Skills.git"
+$repo = "https://github.com/ihyos/CLONERCORD.git"
 $tempDir = Join-Path $env:TEMP ("discord_skill_" + [System.Guid]::NewGuid().ToString("N"))
 
 git clone --depth 1 --filter=blob:none --sparse $repo $tempDir --quiet

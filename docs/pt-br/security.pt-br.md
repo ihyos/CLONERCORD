@@ -7,7 +7,7 @@
 
 # Seguranca
 
-**Professional Discord Bot Skills · PT-BR**
+**CLONERCORD · PT-BR**
 
 </div>
 
@@ -109,6 +109,6 @@ Uma exclusao realizada pelo bot ou diretamente no Supabase e permanente do ponto
 
 <div align="center">
 
-<sub>Professional Discord Bot Skills · Seguranca PT-BR · Antigravity IDE</sub>
+<sub>CLONERCORD · Seguranca PT-BR · Antigravity IDE</sub>
 
 </div>

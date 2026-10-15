@@ -7,7 +7,7 @@
 
 # References
 
-**Professional Discord Bot Skills · English**
+**CLONERCORD · English**
 
 </div>
 
@@ -86,6 +86,6 @@
 
 <div align="center">
 
-<sub>Professional Discord Bot Skills · References English · Antigravity IDE</sub>
+<sub>CLONERCORD · References English · Antigravity IDE</sub>
 
 </div>

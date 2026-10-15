@@ -7,7 +7,7 @@
 
 # Visual Design
 
-**Professional Discord Bot Skills · English**
+**CLONERCORD · English**
 
 </div>
 
@@ -142,6 +142,6 @@ Maintain consistent spacing, hierarchy, labels, and component structure.
 
 <div align="center">
 
-<sub>Professional Discord Bot Skills · Visual Design English · Antigravity IDE</sub>
+<sub>CLONERCORD · Visual Design English · Antigravity IDE</sub>
 
 </div>
